@@ -4,7 +4,7 @@ const dotenv = require("dotenv").config();
 const connectDb = require("./config/connectionDb");
 const cors = require("cors");
 
-const PORT = process.env.PORT || 5001; // Default to 3000 if PORT is not set
+const PORT = process.env.PORT || 5005; // Default to 3000 if PORT is not set
 
 // Connect to the database
 connectDb();
